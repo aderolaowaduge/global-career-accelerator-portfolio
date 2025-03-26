@@ -5,6 +5,5 @@ This is a personal portfolio website, created as part of the Global Career Accel
 Check it out here: [View on CodeSandbox](https://codesandbox.io/p/sandbox/portfolio-project-personal-website-forked-6k64m5)  
 
 ## 🛠️ Technologies Used  
-- JavaScript
-- Bootstrap.js
+- Bootstrap
 - HTML & CSS  
