@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aderola Owaduge - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-code-slash fs-2"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#mission">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content text-center">
+        <img
+          src="edit.jpg"
+          class="rounded-circle border"
+          width="150"
+          height="150"
+        />
+        <h1 class="mt-3">Aderola Owaduge</h1>
+        <p class="lead">
+          Shaping ideas into reality, one line of code at a time
+        </p>
+      </div>
+    </section>
+
+    <section id="mission" class="container my-5">
+      <h2 class="text-center">Mission</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="edit.jpg" class="img-fluid" alt="Mission" />
+        </div>
+        <div class="col-md-6">
+          <p>
+            I aspire to be a full stack developer who seamlessly blends
+            creativity with technology. With a passion for photography and the
+            arts, I strive to bring artistic expression into a field that leans
+            more practical, crafting intuitive and visually engaging digital
+            experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container my-5 text-center">
+      <h2>Skills</h2>
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="python.png" alt="Python" height="100" />
+          <p>
+            Python – I’ve used Flask for web development and worked with pandas,
+            NumPy, and matplotlib for data analysis. Through my Machine Learning
+            for Natural Language Processing course, I gained experience using
+            PyTorch to train classifiers and analyze text data.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="cpluslogo.png" alt="C++" height="100" />
+          <p>
+            C++ – I’ve used C++ extensively for implementing data structures and
+            algorithms, including hash maps, binary search trees, and AVL trees.
+            My coursework has reinforced my understanding of algorithmic
+            efficiency, memory management, and testing.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="javascriptlogo.png" alt="Javascript" height="100" />
+          <p>
+            JavaScript (React) – I’ve used React for front-end development,
+            focusing on building interactive and dynamic user interfaces. My
+            experience includes working with components, state management, and
+            integrating APIs for enhanced functionality.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="sqllogo.png" alt="SQL" height="100" />
+          <p>
+            SQL – I’ve used SQL to query and manage relational databases,
+            working with structured data for both web applications and machine
+            learning projects. My experience includes using SQL with Flask to
+            store and retrieve data efficiently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-center">
+      <h2>Contact</h2>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-12">
+            <a href="https://github.com/aderolaowaduge" target="_blank">
+              <i class="bi bi-github fs-1"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="https://linkedin.com/in/aderola-owaduge" target="_blank">
+              <i class="bi bi-linkedin fs-1"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="mailto:owadugea@umich.edu">
+              <i class="bi bi-envelope-fill fs-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center">Gallery</h2>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="DSCN7962.JPG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_7892.JPG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="DSCN7923.JPG" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2025 Aderola Owaduge. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
