@@ -87,12 +87,13 @@ h2 {
 }
 #mission img {
   width: auto;
-  height: 55vh;
-  padding-left: 50px;
+  height: auto;
 }
 #mission p {
   font-size: 1.15rem;
-  margin-left: -25px;
+}
+.mission-row {
+  margin: 10px;
 }
 
 /* Skills Section */
